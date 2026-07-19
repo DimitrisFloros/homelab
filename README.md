@@ -10,3 +10,4 @@
 
 ## Scripts
 - `scripts/update-all-nodes.sh` — updates all Proxmox nodes via SSH in one command
+- `scripts/wake-lab.sh` — Powers on remotely the whole proxmox cluster or 1 by 1 the nodes.
