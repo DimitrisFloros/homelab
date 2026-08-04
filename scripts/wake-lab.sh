@@ -19,7 +19,13 @@ case "$1" in
     wakeonlan 18:3d:2d:f8:06:97
     wakeonlan 18:3d:2d:f5:ee:b8
     ;;
+ workers)
+ echo "Waking pve02 and pve03"
+ wakeonlan 18:3d:2d:f8:06:97
+ wakeonlan 18:3d:2d:f5:ee:b8
+ ;;
+
   *)
-    echo "Usage: wake-lab [pve02|pve03|pve04|all]"
+    echo "Usage: wake-lab [pve01|pve02|pve03|all|workers]"
     ;;
 esac
